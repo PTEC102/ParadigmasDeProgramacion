@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
- 
+ //g++ 04_map.cpp -o main.exe -std=c++17
 int main()
 {
   // Cre map de string e int
