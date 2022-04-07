@@ -6,20 +6,20 @@ Vehiculo::Vehiculo(){
   
   this->estado_motor = false;
   this->marcha = 0;
-  this->auto_id = ++id_aux;
+  this->vehiculo_id = ++id_aux;
 }
 
 Vehiculo::Vehiculo(string modelo, string tipo_motor){
   this->estado_motor = false;
   this->marcha = 0;
-  this->auto_id = ++id_aux;
+  this->vehiculo_id = ++id_aux;
   
   this->modelo = modelo;
   this->tipo_motor = tipo_motor;
 }
 
 Vehiculo::~Vehiculo(){
-  cout<< "Auto " << this->auto_id << " Destructor" << endl;
+  cout<< "Vehiculo " << this->vehiculo_id << " Destruido" << endl;
 }
 
 void Vehiculo::encender(){

@@ -4,7 +4,7 @@ using namespace std;
 
 class Vehiculo{
   private:
-    int auto_id;
+    int vehiculo_id;
   public:
     string modelo;
     bool estado_motor;
