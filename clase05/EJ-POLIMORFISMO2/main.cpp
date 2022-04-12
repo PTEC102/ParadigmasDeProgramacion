@@ -57,7 +57,7 @@ int main() {
 
    F1(*Carlos);
 
-   F2(*Carlos);
+   //F2(*Carlos); Llama a la funcion en template
    //F2(86652); // arroja error de compilacion ya que
 
 
