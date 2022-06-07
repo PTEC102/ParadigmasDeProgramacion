@@ -1,0 +1,6 @@
+(define a (+ 2 (* 3 4)))
+(display a)(newline)
+(define b 16)
+(display b)(newline)
+(define b 216)
+(display b)(newline)
