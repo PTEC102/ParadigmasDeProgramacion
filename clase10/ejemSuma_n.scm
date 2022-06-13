@@ -1,8 +1,8 @@
 #lang scheme
 
-(define (sum_n n r)    
+(define (sum-n n r)    
     (if (<= n 0)
         r
-        (sum_n (- n 1) (+ n r))
+        (sum-n (- n 1) (+ n r))
     )
 )
