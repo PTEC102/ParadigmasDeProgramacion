@@ -104,7 +104,7 @@ main:-
         %el_padre_de(rodrigo),
         %el_abuelo_de(rodrigo),
         %ancestro(anacleto),nl,nl,
-        ancestroLista(anacleto, []),nl
+        ancestroLista(anacleto, []),nl,
         halt.
 
 todos_los_hijos(PADRE) :- 
